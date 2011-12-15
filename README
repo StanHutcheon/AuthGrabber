@@ -1,0 +1,23 @@
+This is a modified version of Cracking-Siri by Applidium which caches iPhone 4S authorization data and writes it to a text file.
+
+Requirements:
+
+ -An iPhone 4S
+ -A UNIX system (Linux, Mac)
+ -Port 53 and Port 443 are open on your computer firewall and your router firewall (If you're doing this from your home PC)
+ -Some general knowledge about computers.
+
+
+To install all needed stuff for this to work, just run 'sudo ./install.sh' (no quotes)
+
+If you already have all the stuff installed to run it, you can generate certificates by running:
+
+./scripts/certs.sh
+
+then once you've done that, install ca.crt to your device.
+
+Then to run the auth grabber, its just 'sudo ./cache.sh' (no quotes)
+
+All auth data is written to ./auths as acehosts0.txt, acehosts1.txt etc.
+
+All credit goes down to Applidium for creating Cracking-Siri
