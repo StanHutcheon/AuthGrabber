@@ -14,7 +14,8 @@ If you already have all the stuff installed to run it, you can generate certific
 
 ./scripts/certs.sh
 
-then once you've done that, install ca.crt to your device.
+then once you've done that, install ca.crt to your device and set your server IP address as the DNS for your iPhone.
+(Settings > WiFi > Blue arrow > DNS)
 
 Then to run the auth grabber, its just 'sudo ./cache.sh' (no quotes)
 
