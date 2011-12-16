@@ -3,7 +3,7 @@ This is a modified version of Cracking-Siri by Applidium which caches iPhone 4S 
 Requirements:
 
  -An iPhone 4S
- -A UNIX system (Linux, Mac)
+ -A Linux system (use virtualbox if you're running windows or mac)
  -Port 53 and Port 443 are open on your computer firewall and your router firewall (If you're doing this from your home PC)
  -Some general knowledge about computers.
 
@@ -20,5 +20,8 @@ then once you've done that, install ca.crt to your device and set your server IP
 Then to run the auth grabber, its just 'sudo ./cache.sh' (no quotes)
 
 All auth data is written to ./auths as acehosts0.txt, acehosts1.txt etc.
+
+If you need anymore help, please read:
+http://www.stantheripper.com/siri
 
 All credit goes down to Applidium for creating Cracking-Siri
