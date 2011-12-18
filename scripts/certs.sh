@@ -2,6 +2,7 @@
 read -p "Now enter your name: " NAME
 read -p "Now enter your email: " EMAIL
 read -p "When it asks for a password, just enter 'pass' for all of them (no quotations) Press enter to continue..."
+cd ../
 openssl genrsa -out ca.key 1024
 openssl req -new -x509 -days 365 -key ca.key -out ca.crt << EOF
 US
@@ -34,3 +35,4 @@ mv server.key server.key.secure
 mv server.key.insecure server.passless.key
 echo "Created."
 echo "Install ca.crt to your device by emailing it to yourself or putting it up on a web server or something."
+cd scripts
