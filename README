@@ -21,6 +21,8 @@ Then to run the auth grabber, its just 'sudo ./cache.sh' (no quotes)
 
 All auth data is written to ./auths as acehosts0.txt, acehosts1.txt etc.
 
+use update.sh to update your version of AuthGrabber to the latest version (straight from GitHub)
+
 If you need anymore help, please read:
 http://www.stantheripper.com/siri
 
